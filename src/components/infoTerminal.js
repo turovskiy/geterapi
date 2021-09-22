@@ -38,7 +38,7 @@ function Info() {
 
 	return (
 		<>
-					<label>Cерійний номер</label>
+					<label className="my-4">Cерійний номер</label>
 					<input
 						placeholder="Введіть серійний номер" 
                         className="relative w-full px-3 py-3 text-sm bg-white border-0 rounded shadow outline-none placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
@@ -53,7 +53,7 @@ function Info() {
 			
 
 				<button onClick={handleSubmit}
-                        className="px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-pink-500 rounded shadow outline-none active:bg-pink-600 hover:shadow-lg focus:outline-none"
+                        className="my-4 px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-pink-500 rounded shadow outline-none active:bg-pink-600 hover:shadow-lg focus:outline-none"
                         type="button">
 					Submit
 				</button>
