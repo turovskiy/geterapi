@@ -26,7 +26,7 @@ function Info() {
 // https://services.ua.printecgroup.com/tobo/IMS/api.nsf/MainAPIHelper
 		axios
 			.post(
-				'https:services.ua.printecgroup.com/tobo/IMS/api.nsf/MainAPIHelper',
+				'https://services.ua.printecgroup.com/tobo/IMS/api.nsf/MainAPIHelper',
 				data, {
                     headers: headers
                   }
