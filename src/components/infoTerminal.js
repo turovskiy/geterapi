@@ -10,7 +10,7 @@ function Info() {
 		e.preventDefault();
 
         const headers = {
-            'Access-Control-Allow-Origin': '*',
+           
         
     'Authorization': 'Basic Y2hhdC1CMHQ6NWVIaFY5VDIzYw==', 
     'Content-Type': 'application/json'
