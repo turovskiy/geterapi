@@ -11,7 +11,7 @@ function Info() {
 
         const headers = {
            
-        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Origin': 'same-origin',
     'Authorization': 'Basic Y2hhdC1CMHQ6NWVIaFY5VDIzYw==', 
     'Content-Type': 'application/json'
   }
